@@ -1,0 +1,60 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+PRODID:Microsoft Exchange Server 2010
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:tzone://Microsoft/Utc
+BEGIN:STANDARD
+DTSTART:16010101T000000
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T000000
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ORGANIZER;CN=Christina Carrasquilla:mailto:Christina.Carrasquilla@asu.edu
+DESCRIPTION:IMMERSE\nLocation\n\nArizona State University Polytechnic\n7001
+  E Williams Field Rd\nMesa\, AZ 85212\n\nDates\n\nMonday\, May 20 - Wednes
+ day\, May 22\n\nTransportation\n\nThere is a regional airport right on cam
+ pus and an international airport 30 minutes away.\n\nMesa Gateway Airport\
+ n\nhttps://www.gatewayairport.com/\n\nSky Harbor\n\nhttps://www.skyharbor.
+ com/\n\nLodging\n\nThere are 3 hotels located < 1 from campus and each has
+  an airport shuttle.\n\nFour Points Sheraton\n\nLocated right on our campu
+ s and only a 0.4 mile (9 minute) walk to conference rooms: https://www.mar
+ riott.com/hotels/travel/phxma-four-points-at-phoenix-mesa-gateway-airport\
+ n\nThe Courtyard Marriott\n\nhttps://www.marriott.com/en-us/hotels/phxmz-c
+ ourtyard-phoenix-mesa-gateway-airport/overview\n\nThe Holiday Inn Express\
+ nhttps://www.ihg.com/holidayinnexpress/hotels/us/en/gilbert/phxmg/hoteldet
+ ail\n
+UID:040000008200E00074C5B7101A82E00800000000D4CFBC272F85D901000000000000000
+ 010000000EB69ADF650FF974AB5DF3A460EC0C891
+SUMMARY:2024 UCDA Design Educators Summit
+DTSTART;VALUE=DATE:20240520
+DTEND;VALUE=DATE:20240523
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20230513T001117Z
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+LOCATION:Arizona State University Polytechnic campus
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-ONLINEMEETINGEXTERNALLINK:
+X-MICROSOFT-ONLINEMEETINGCONFLINK:
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-LOCATIONDISPLAYNAME:Arizona State University Polytechnic campus
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:P
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR
