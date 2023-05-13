@@ -1,0 +1,123 @@
+/* CSS by Christina Carrasquilla */
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* ROOT */
+@font-face {
+    font-family: AquireBold;
+    src: url(AquireBold.otf);
+}
+@font-face {
+    font-family: AquireLight;
+    src: url(AquireLight.otf);
+}
+:root {
+    --pink:#FA1982;
+    --plum:#4C0738;
+    --cyan:#60D0F0;
+    --orange:#f03f18;
+    --white:#ffffff;
+    --black:#000000;
+}
+/* GLOBAL STYLES */
+html {
+    background-color: var(--plum);
+}
+body {
+    height: 100vh;
+    min-width: 425px;
+    max-width: 625px;
+    margin: 0 auto;
+    background-color: var(--white);
+    padding-left: 1rem;
+}
+h1 {
+    font-family: AquireBold, san-serif;
+    font-size:6em;
+    background-image: url(liquid-block.png);
+    color:var(--white);
+    text-shadow: 2px 2px 2px var(--black);
+}
+h2 {
+    font-family: AquireLight, san-serif;
+    font-size: 2em;
+    margin: 1rem 0 2rem 0;
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    margin: .25rem;
+}
+main h2 {
+    visibility: hidden;
+    height: 1px;
+    width: 1px;
+}
+section a {
+    width: 200px;
+    font-size: 2em;
+    line-height: 5em;
+    background-color: var(--plum);
+    border-radius: 1rem;
+    padding: 2rem;
+    color: var(--white);
+    text-decoration: none;
+    font-family: AquireLight;
+    box-shadow: 7px 7px 2px var(--pink);
+}
+section a:hover {
+    background-color: var(--orange);
+    box-shadow: none;
+    color: var(--white);
+}
+footer {
+    position:fixed;
+    bottom: 1rem;
+}
+footer a {
+    color: #f03f18;
+}
